@@ -1,6 +1,6 @@
 on:
   repository_dispatch:
-    types: [trigger-event-name]
+    types: [trigger-repo-dispatch]
 jobs:
   run-task:
     runs-on: ubuntu-latest
