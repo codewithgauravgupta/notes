@@ -4,7 +4,7 @@ self.__BUILD_MANIFEST = {
     "beforeFiles": [
       {
         "source": "/dist//_next/:path+",
-        "destination": "/dist/_next/:path+"
+        "destination": "/dist/abcd/_next/:path+"
       }
     ],
     "fallback": []
