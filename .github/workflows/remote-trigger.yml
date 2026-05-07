@@ -1,0 +1,8 @@
+on:
+  repository_dispatch:
+    types: [trigger-event-name]
+jobs:
+  run-task:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Triggered from private repo!"
